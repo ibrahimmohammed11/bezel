@@ -1,0 +1,657 @@
+*
+{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif; 
+}
+p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+/* header*/
+.header
+{
+    color: #fff;
+}
+.nave
+{
+    background-color: #01142F;
+    z-index: 999999999999999999999;
+}
+.navbar-brand
+{
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+.overlay
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.te9 h1
+{
+    font-size: 100px;
+    font-weight: 700;
+}
+.te99 h1
+{
+    font-size: 100px;
+    font-weight: 700;
+}
+.carousel-indicators li
+{
+    width: 30px;
+    height: 2px;
+}
+.uline
+{
+    color: #fff !important;
+}
+
+.f-btn
+{
+    background-color: #00c3da;
+    color: white;
+    font-size: 16px;
+}
+.f-btn:hover
+{
+    background-color: #00c3da;
+    color: white;
+}
+.s-btn
+{
+    font-size: 16px;
+}
+
+.aaa
+{
+    background-color: white;
+}
+.hhhhh .carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    background-color: #00c3da;
+    border-radius: 50%;
+}
+/*-------------------------------- media screen--------------------------- */
+@media screen and (max-width:568px) {
+.te9 h1 {
+    font-size: 40px;
+}
+.te99 h1 {font-size: 30px;}
+.te9
+{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.te99
+{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+} 
+}
+@media screen and (min-width:569px) and (max-width:768px)
+{
+.te9 h1 {font-size: 60px;}
+.te99 h1 {font-size: 50px;}
+.te9
+{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.te99
+{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+} 
+     
+}
+@media screen and (min-width:769px) and (max-width:996px)
+{
+.te9 h1 {font-size: 70px;}
+.te99 h1 {font-size: 60px;}
+.te9
+{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.te99
+{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}   
+}
+
+@media screen and (min-width:997px) and (max-width:1139px) {
+.te9 h1 {font-size: 70px;}
+.te99 h1 {font-size: 60px;}
+.te9
+{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+} 
+.te99
+{
+    position: absolute;
+    top: 30%;
+    left: 16%;
+}
+
+}
+
+@media screen and (min-width:1140px)
+{
+.te9 h1 {font-size: 100px;}
+.te99 h1 {font-size: 100px;}
+.te9
+{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+} 
+.te99
+{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+} 
+}
+/*-------------------------------- media screen--------------------------- */
+
+/* header end*/
+/*about*/
+.read
+{
+    border: 1px solid rgba(146, 146, 146, 0.2);
+    padding: 15px 25px; 
+    background-color: transparent;
+    color: black;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-size: 12px;
+}
+.read:hover
+{
+    border: 1px solid black;
+    padding: 15px 25px; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.p1
+{
+    letter-spacing: 2px;
+    font-size:24px;
+    font-weight: 300;
+}
+.typing::before
+{
+    content: '';
+    -webkit-animation: animate infinite 4s;
+            animation: animate infinite 4s;
+    border-right: rgba(146, 146, 146, 0.5) 1px solid;
+    color: #00c3da;
+    font-weight: 600;
+}
+@-webkit-keyframes animate
+{
+    0%{ content: 's';}
+    4%{ content: 'so';}
+    8%{ content: 'sof';}
+    12%{ content: 'soft';}
+    16%{ content: 'softw';}
+    20%{ content: 'softwa';}
+    24%{ content: 'softwar';}
+    28%{ content: 'software';}
+    32%{ content: 'softwares';}
+    36%{ content: '';}
+    40%{ content: '';}
+    44%{ content: 'a';}
+    48%{ content: 'ap';}
+    52%{ content: 'app';}
+    56%{ content: 'apps';}
+    60%{ content: '';}
+    64%{ content: '';}
+    68%{ content: 'w';}
+    72%{ content: 'we';}
+    76%{ content: 'web';}
+    80%{ content: 'webs';}
+    84%{ content: 'websi';}
+    88%{ content: 'websit';}
+    92%{ content: 'website';}
+    96%{ content: 'websites';}
+    98%{ content: '';}
+    100%{ content: '';}
+}
+@keyframes animate
+{
+    0%{ content: 's';}
+    4%{ content: 'so';}
+    8%{ content: 'sof';}
+    12%{ content: 'soft';}
+    16%{ content: 'softw';}
+    20%{ content: 'softwa';}
+    24%{ content: 'softwar';}
+    28%{ content: 'software';}
+    32%{ content: 'softwares';}
+    36%{ content: '';}
+    40%{ content: '';}
+    44%{ content: 'a';}
+    48%{ content: 'ap';}
+    52%{ content: 'app';}
+    56%{ content: 'apps';}
+    60%{ content: '';}
+    64%{ content: '';}
+    68%{ content: 'w';}
+    72%{ content: 'we';}
+    76%{ content: 'web';}
+    80%{ content: 'webs';}
+    84%{ content: 'websi';}
+    88%{ content: 'websit';}
+    92%{ content: 'website';}
+    96%{ content: 'websites';}
+    98%{ content: '';}
+    100%{ content: '';}
+}
+.about
+{
+    border-bottom: 1px solid rgba(146, 146, 146, 0.2);  
+
+}
+/*about end*/
+/*team*/
+.team h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.team h3
+{
+    font-size: 4.7rem;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+.team p 
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.member
+{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.caption
+{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00c3da;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.member:hover .caption
+{
+    top:0;
+    opacity: .9;
+}
+.pink
+{
+    color: white;
+    padding: 0 4px;
+}
+.found
+{
+    font-size: 12px;
+}
+/*-------------------------------- media screen--------------------------- */
+
+@media screen and (max-width:800px)
+{
+    .team h2 {
+
+        top: 45%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        font-size: 1.8rem;
+    }
+    .team h3
+    {
+        font-size: 3rem;
+    } 
+} 
+/*-------------------------------- media screen--------------------------- */
+
+/*team end*/
+/*services*/
+.animated-icon.white svg, .animated-icon.white svg
+{
+    stroke:#fff;
+}
+.we-do
+{
+      background-color: rgba(31, 31, 31, 0.7);
+}
+.upper
+{
+    font-size: 13px;
+    letter-spacing: .1em;   
+}
+.serv h2 {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.serv h3
+{
+    font-size: 4.5rem;
+    color: rgba(128, 128, 128,0.4);
+    font-weight: 700;
+}
+/*services end*/
+/*Pricing*/
+.price
+{
+    background-color: #f7f7f7;
+}
+.ppp h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.ppp h3
+{
+    font-size: 4.7rem;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+.ppp p 
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.h13
+{
+    border-bottom: 1px solid rgba(146, 146, 146, 0.2);
+    padding-bottom: 15px;
+    font-size: 54px;
+}
+.h14
+{
+    border-bottom: 1px solid rgba(146, 146, 146, 0.2);
+    padding-bottom: 15px;
+    font-size: 54px;
+    color: #00c3da ;
+}
+.price ul
+{
+    list-style-type: none;
+}
+.price a
+{
+    background-color: #00c3da;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.big
+{
+    -webkit-box-sizing: unset;
+            box-sizing: unset;
+}
+.sp1
+{
+    font-size: 10px;
+    background-color: #00c3da;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.leo
+{
+    color: #a6a6a6;
+    padding:11px 0;
+}
+.h20
+{
+    font-size: 13px;
+    font-weight: 300;
+    margin:15px 0;
+}
+/*-------------------------------- media screen--------------------------- */
+
+@media screen and (max-width:800px)
+{
+    .ppp h2 {
+
+        top: 32%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        font-size: 1.8rem;
+    }
+    .ppp h3
+    {
+        font-size: 3rem;
+    } 
+} 
+/*-------------------------------- media screen--------------------------- */
+
+/*Pricing end*/
+/*happy customer*/
+.happy
+{
+    background-color: #f7f7f7;
+}
+.happy .carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    background-color: #00c3da;
+    border-radius: 50%;
+}
+.happy img
+{
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translateY(-58%);
+        -ms-transform: translateY(-58%);
+            transform: translateY(-58%);
+}
+.inn1
+{
+    padding: 50px 0;
+}
+.p-arrowww
+{
+    position: absolute;
+    left: -20%;
+    top:50%;
+    color: #787878;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.p-arrowww:hover
+{
+    color: #00c3da;
+    left: -20.7%;
+
+
+}
+.n-arrowww
+{
+    position: absolute;
+    right: -20%;
+    top:50%;
+    color: #787878;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.n-arrowww:hover
+{
+    color: #00c3da;
+    right: -20.7%;
+}
+.h15
+{
+    font-size: 12px;
+    color: #787878;
+}
+/*happy customer end*/
+/*contact*/
+.cont h2 {
+    position: absolute;
+    bottom: 26%;
+    left: 1%;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.cont h3
+{
+    font-size: 4.5rem;
+    color: rgba(128, 128, 128,0.1);
+    font-weight: 700;
+}
+.fbtn
+{
+    background-color: #00c3da;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+.fbtn:hover
+{
+    background-color: #00c3da;
+    color: white;
+}
+.label
+{
+    font-size: 13px;
+    font-size: 900;
+}
+/*contact end*/
+/*go top btn*/
+.gotopbtn
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00c3da;
+    color: #f7f7f7;
+    padding: 7px 9px;
+    z-index: 999999999999999;
+}
+#toTop{
+    display: none;
+}
+.gotopbtn:hover
+{
+    color: white;
+}
+/*go top btn end*/
+/*------------------- loading screen------------------------------- */
+#loading{
+    width: 100%;
+    height: 100vh;
+    background-color: #DCE1E3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999;
+}
+.spinner {
+    margin: 300px auto;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+}
+  
+.dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #00c3da;
+    border-radius: 100%;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+  
+.dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+  
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+  
+@keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+}
+/*------------------- loading screen------------------------------- */
