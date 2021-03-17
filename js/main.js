@@ -38,7 +38,7 @@ $(window).scroll(function () {
 })
 /* back to top button  */
 /*--------------------- loading screen-----------------------  */
-$(window).on("load",function(){
+$(document).ready(function(){
     $(".loader-wrapper").fadeOut("slow");
   });
   /* -------------------loading screen ------------------------ */
